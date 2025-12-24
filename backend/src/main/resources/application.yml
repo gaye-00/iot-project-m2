@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: iot
+  mongodb:
+    uri: mongodb://localhost:27017/iot_db
+    #   host: localhost
+    #   port: 27017
+    #   database: iot_db
+    # auto-index-creation: true
+
+server:
+  port: 8080
+# spring:
+#   application:
+#     name: iot
+#   data:
+#     mongodb:
+#       uri: mongodb://localhost:27017/iot_db
+#       # host: localhost
+#       # port: 27017
+#       # database: iot_db
+#       auto-index-creation: true
+
+# server:
+#   port: 8080
